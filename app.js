@@ -5,16 +5,16 @@ const chain = new CryptoBlockchain();
 
 chain.addNewBlock(
   new CryptoBlock(1, "03/27/2020", {
-    sender: "Iris Ljesnjanin",
-    recipient: "Cosima Mielke",
+    sender: "Jack Ma",
+    recipient: "Pony Ma",
     quantity: 50,
   })
 );
 
 chain.addNewBlock(
   new CryptoBlock(2, "03/29/2020", {
-    sender: "Vitaly Friedman",
-    recipient: "Ricardo Gimenes",
+    sender: "Bill G.",
+    recipient: "Warren B.",
     quantity: 100,
   })
 );
